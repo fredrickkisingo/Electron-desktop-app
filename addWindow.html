@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Add Shopping List item</title>
+    </head>
+    <body>
+        <form>
+            <div><label>Enter Item</div>
+                <input type="text" id="item" autofocus>
+            </div>
+            <button type="submit">Add item</button>
+        </form>
+    </body>
+    <script>
+        document.querySelector('form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            console.log("12222344")
+            window.electron.send('add-item', document.getElementById('item').value);
+        });
+    </script>
+</html> 

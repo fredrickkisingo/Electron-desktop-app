@@ -1,0 +1,7 @@
+/.phpunit.cache
+/node_modules
+user.json
+public
+data.json
+package-lock.json
+/dist

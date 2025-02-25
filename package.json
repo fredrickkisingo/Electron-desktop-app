@@ -1,0 +1,15 @@
+{
+  "name": "shopping-lists",
+  "version": "1.0.0",
+  "description": "Shopping List desktop app",
+  "main": "main.js",
+  
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Fredrick Kisingo",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^34.2.0"
+  }
+}
